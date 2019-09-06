@@ -1,0 +1,22 @@
+body {
+  background-color: IndianRed;
+}
+p {
+  color: white;
+}
+h1 {
+  color: white;
+}
+h1 {
+  font-style: normal;
+  font-family: sans-serif;
+}
+div {
+  width: 2880px;
+  height: 1800px;
+  margin-left: 100px;
+}
+P {
+  font-style: normal;
+  font-family: sans-serif;
+}
