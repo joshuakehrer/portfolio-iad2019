@@ -3,7 +3,7 @@ html {
   color: white;
 }
 body {
-  background-color: SlateGrey;
+  background-color: rgb(76, 74, 77);
 }
 img {
   width: 75%;
@@ -16,10 +16,10 @@ img {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
-  background-color: SlateGrey;
+  background-color: rgb(76, 74, 77);
 }
 h1 {
-  color: white;
+  color: rgb(219, 95, 95);
   font-style: normal;
   font-weight: bold;
   font-family: sans-serif;
@@ -27,11 +27,19 @@ h1 {
   line-height: 70px;
 }
 h2{
+  color: rgb(219, 95, 95);
   font-size: 1.3em;
   font-weight: bold;
   font-family: sans-serif;
 }
 P {
+  font-style: normal;
+  font-size: 1em;
+  width: 33em;
+  line-height: 20px;
+}
+
+li {
   font-style: normal;
   font-size: 1em;
   width: 33em;
