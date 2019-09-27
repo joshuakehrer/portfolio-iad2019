@@ -3,9 +3,15 @@ html {
   color: white;
 }
 body {
-  background-image: url("../Files/grunge_black1.jpg");
+  background-image: url("../Files/grunge_black2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+a {
+  color: rgb(219, 95, 95);
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 img {
   width: 75%;
