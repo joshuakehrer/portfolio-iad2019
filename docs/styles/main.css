@@ -3,7 +3,9 @@ html {
   color: white;
 }
 body {
-  background-color: rgb(76, 74, 77);
+  background-image: url("../Files/grunge_black1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 img {
   width: 75%;
@@ -16,7 +18,7 @@ img {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(76, 74, 77);
+
 }
 h1 {
   color: rgb(219, 95, 95);
