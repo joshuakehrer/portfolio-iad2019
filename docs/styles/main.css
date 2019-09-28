@@ -49,10 +49,12 @@ img {
   z-index: 2;
 }
 .title-box .back {
-  color: rgb(226, 213, 213);
+  color: rgb(219, 95, 95);
   position: absolute;
-  top: -20px;
-  left: 13px;
+  -webkit-text-stroke: 0.5px currentColor;
+  -webkit-text-fill-color: transparent;
+  top: -25px;
+  left: 20px;
   z-index: 1;
 }
 
