@@ -29,9 +29,10 @@ h1{
 P {
   font-family: 'Nunito', sans-serif;
   font-style: normal;
-  font-size: 1em;
+  font-size: 1.1em;
   width: 90%;
-  line-height: 24px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
 }
 li {
   font-family: 'Nunito', sans-serif;
@@ -151,6 +152,7 @@ blockquote {
   /* transform: rotate(-90deg); */
   font-family: 'Notable', sans-serif;
   color: rgb(203, 168, 212);
+  z-index: 999;
 }
 
 #fixposition p{
