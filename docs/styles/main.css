@@ -34,15 +34,16 @@ P {
   font-style: normal;
   font-size: 1em;
   width: 90%;
-  line-height: 26px;
+  line-height: 24px;
   letter-spacing: 0.05em;
 }
 li {
   font-family: 'Nunito', sans-serif;
   font-style: normal;
   font-size: 1em;
-  width: 33em;
-  line-height: 20px;
+  width: 90%;
+  line-height: 24px;
+  letter-spacing: 0.05em;
 }
 blockquote {
   font-family: 'Rock Salt', cursive;
