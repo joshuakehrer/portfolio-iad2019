@@ -29,12 +29,14 @@ img {
 h1{
   color: rgb(203, 168, 212);
   font-size: 1.8em;
+  line-height: 28px;
   font-weight: bold;
   font-family: 'Abril Fatface', cursive;
-  line-height: 25px;
   text-align: left;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.05em; 
+  
 }
+
 h2 {
   font-family: 'Abril Fatface', cursive;
   font-style: normal;
@@ -99,9 +101,9 @@ blockquote {
 }
 ::-webkit-scrollbar-thumb{
   background: linear-gradient(
-  10deg,
+  50deg,
   #9781b4,
-  #d1d1d1
+  #00ff9d
 );
   border-radius: 5px;
 }
@@ -127,13 +129,15 @@ blockquote {
   }
   h1 {
     font-size: 2em;
-  }
-  
+  }  
 }
-
 
 .titel-fonts {
   font-weight: bold;
+  padding: 12px 40px;
+  border: 2px solid rgb(0, 255, 191);
+  border-radius: 20% 23% 88% 56% / 76% 67% 90% 67%;
+  text-align: center;
 }
 
 .spalte {
@@ -162,7 +166,7 @@ blockquote {
 
 .title-box .front {
   font-style: italic;
-  color: rgb(243, 229, 231);
+  color: rgb(0, 255, 191);
   position: relative;
   -webkit-text-stroke: 0.5px currentColor;
   -webkit-text-fill-color: transparent;
@@ -178,6 +182,7 @@ blockquote {
   z-index: 1;
 }
 
+
 @media only screen and (min-width: 600px) {
   .title-box .front,
   .title-box .back {
@@ -191,23 +196,24 @@ blockquote {
 
 .testhover{
   font-family: 'Abril Fatface', cursive;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 28px;
   color: rgb(203, 168, 212);
   font-weight: bold;
   text-transform: uppercase;
-  transition: 0.5s ease-in-out;
+  transition: 0.4s ease-in-out;
   transform-origin: left top;
 }
 
 .testhover:hover{
-  transform: scale(1.4);
+  transform: scale(1.2);
   color: rgb(17, 17, 17);
   color: white;
   font-weight: bold;
 }
 
 .testhover a:hover{
-  color: white;
+  color: rgb(0, 255, 191);
   font-weight: bold;
 }
 
@@ -267,7 +273,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 1px solid rgb(243, 229, 231);
+  border: 1px solid rgb(0, 255, 191);
   border-radius: 32% 58% 69% 43% / 48% 32% 59% 55%;
   transition: 0.5s;
   animation: animate 6s linear infinite;
@@ -275,7 +281,11 @@ body {
 
 .docu:hover span:nth-child(1) {
   border: none;
-  background: #BC91EF;
+  background: linear-gradient(
+  50deg,
+  #9781b4,
+  #00ff9d
+);
 }
 
 .square span:nth-child(2) {
@@ -284,7 +294,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid rgb(243, 229, 231);
+  border: 2px solid rgb(203, 168, 212);
   border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
   transition: 0.5s;
   animation: animate 4s linear infinite;
@@ -292,7 +302,11 @@ body {
 
 .docu:hover span:nth-child(2) {
   border: none;
-  background: #BC91EF;
+  background: linear-gradient(
+  50deg,
+  #9781b4,
+  #00ff9d
+);
 }
 
 .square span:nth-child(3) {
@@ -301,7 +315,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid rgb(243, 229, 231);
+  border: 2px solid  rgb(0, 255, 191);
   border-radius: 31% 45% 74% 35% / 38% 56% 51% 87%;
   transition: 0.5s;
   animation: animate2 10s linear infinite;
@@ -310,11 +324,12 @@ body {
 .docu:hover span:nth-child(3) {
   border: none;
   background: #BC91EF;
+
 }
 
 .content {
   position: relative;
-  padding: 40px 60px;
+  padding: 40px 10px;
   color: #fff;
   text-align: center;
   transition: 0.5s;
@@ -326,17 +341,17 @@ body {
   display: inline-block;
   margin-top: 10px;
   border: 2px solid #fff;
-  padding: 6px 18px;
+  padding: 8px 20px;
   text-decoration: none;
   text-align: center;
   color: #fff;
   font-weight: 600;
-  border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
+  border-radius: 10% 100% 44% 56% / 49% 35% 58% 51%;
 }
 
 .content a:hover {
-  background: white;
-  color: #2C2C2C;
+  background: #fff;
+  color:  rgb(0, 0, 0);
 }
 
 @keyframes animate {
