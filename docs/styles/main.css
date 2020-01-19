@@ -203,7 +203,6 @@ blockquote {
   font-size: 5em;
   line-height: 70px;
 }
-  
 }
 
 .testhover{
@@ -219,8 +218,6 @@ blockquote {
 
 .testhover:hover{
   transform: scale(1.2);
-  color: rgb(17, 17, 17);
-  color: white;
   font-weight: bold;
 }
 
@@ -236,11 +233,8 @@ blockquote {
   border-radius: 50%;
   background-color: transparent;
   top: 88%;
-  left: 80%;
+  left: 82%;
   transition: 0.5s ease-in-out;
-  /* transform: rotate(-90deg); */
-  font-family: 'Notable', sans-serif;
-  color: rgb(203, 168, 212);
   z-index: 999;
 }
 
@@ -254,6 +248,17 @@ blockquote {
   transform: scale(1.4);
 }
 
+@media only screen and (min-width: 1100px) {
+  #fixposition{
+    left: 75%;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  #fixposition{
+    left: 66%;
+  }
+}
 
 *{
   margin: 0;
