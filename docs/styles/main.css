@@ -54,18 +54,18 @@ h3{
 
 P {
   font-family: 'Lato', sans-serif;
-  font-size: 1.1em;
+  font-size: 1em;
   width: 100%;
-  line-height: 27px;
+  line-height: 24px;
   letter-spacing: 0.04em;
 }
 
 li {
   font-family: 'Lato', sans-serif;
   font-style: normal;
-  font-size: 1.1em;
+  font-size: 1em;
   width: 100%;
-  line-height: 27px;
+  line-height: 25px;
   letter-spacing: 0.04em;
 }
 
@@ -134,16 +134,7 @@ blockquote {
     padding: 0px;
     writing-mode: vertical-rl;
   }
-  p {
-    font-size: 1em;
-    line-height: 25px;
-    letter-spacing: 0.04em;
-  }
-  li {
-    font-size: 1em;
-    line-height: 25px;
-    letter-spacing: 0.04em;
-  }
+ 
   h1 {
     font-size: 2.4em;
     line-height: 38px;
