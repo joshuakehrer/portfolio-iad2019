@@ -144,7 +144,7 @@ blockquote {
 .titel-fonts {
   font-weight: bold;
   padding: 12px 30px;
-  border: 2px solid rgb(0, 255, 213);
+  border: 1px solid rgb(0, 255, 213);
   border-radius: 30% 33% 78% 56% / 86% 67% 90% 60%;
   text-align: center;
 }
