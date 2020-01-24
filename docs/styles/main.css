@@ -4,6 +4,7 @@ html {
 }
 
 body {
+  margin: 0;
   font-size: 1rem;
   line-height: 1.3em;
   margin-top: 70px;
@@ -34,7 +35,14 @@ h1{
   font-family: 'Abril Fatface', cursive;
   text-align: left;
   letter-spacing: 0.05em; 
-  
+
+}
+
+@media only screen and (min-width: 700px) {
+  h1 {
+    font-size: 2.4em;
+    line-height: 38px;
+  }  
 }
 
 h2 {
@@ -47,10 +55,17 @@ h2 {
 h3{
   font-family: 'Rock Salt', cursive;
   font-size: 0.9em;
+  line-height: 1.9;
   color: rgb(243, 229, 231);
   letter-spacing: 0.08em;
 }
 
+@media only screen and (max-width: 380px) {
+  h3{
+  font-size: 0.8em;
+  line-height: 25px;
+}
+}
 
 P {
   font-family: 'Lato', sans-serif;
@@ -71,8 +86,8 @@ li {
 
 .kapitel{
   font-family: 'Abril Fatface', cursive;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 24px;
   color: rgb(203, 168, 212);
   font-weight: bold;
   text-transform: uppercase;
@@ -90,17 +105,58 @@ li {
   font-weight: bold;
 }
 
+@media only screen and (min-width: 500px) {
+  .kapitel {
+  font-size: 18px;
+  line-height: 28px;
+}
+}
+
 blockquote {
   font-family: 'Rock Salt', cursive;
-  font-size: 1em;
+  font-size: 0.8em;
   color: rgb(243, 229, 231);
   position: absolute;
   right: 0;
   top: 50vw;
   width: 20rem;
-  line-height: 30px;
+  line-height: 1.9;
   writing-mode: vertical-rl;
   margin: 110px 20px 0px 0px;
+}
+
+@media only screen and (min-width: 520px) {
+  blockquote {
+    position: relative;
+    right: auto;
+    top: auto;
+    font-size: 1.1em;
+    line-height: 33px;
+    float: right;
+    width: 20px;
+    font-weight: bold;
+    margin: 110px 10px 40px -80px;
+    padding: 0px;
+    writing-mode: vertical-rl;
+  }
+  
+}
+
+@media only screen and (min-width: 700px) {
+  blockquote {
+    position: relative;
+    right: auto;
+    top: auto;
+    font-size: 1.3em;
+    line-height: 33px;
+    float: right;
+    width: 20px;
+    font-weight: bold;
+    margin: 97px 0px 40px -80px;
+    padding: 0px;
+    writing-mode: vertical-rl;
+  }
+  
 }
 
 ::-webkit-scrollbar{
@@ -120,26 +176,6 @@ blockquote {
   border-radius: 5px;
 }
 
-@media only screen and (min-width: 700px) {
-  blockquote {
-    position: relative;
-    right: auto;
-    top: auto;
-    font-size: 1.3em;
-    line-height: 33px;
-    float: right;
-    width: 20px;
-    font-weight: bold;
-    margin: 97px 0px 40px -80px;
-    padding: 0px;
-    writing-mode: vertical-rl;
-  }
- 
-  h1 {
-    font-size: 2.4em;
-    line-height: 38px;
-  }  
-}
 
 .titel-fonts {
   font-weight: bold;
@@ -150,11 +186,11 @@ blockquote {
 }
 
 .spalte {
-  max-width: 55em;
-  /* width: 45%; */
+  max-width: 50rem;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 5rem;
+  padding: 0 1.5rem;
 }
 
 .class {
@@ -169,8 +205,8 @@ blockquote {
 .title-box .back {
   font-weight: bold;
   font-family: 'Notable', sans-serif;
-  font-size: 4.5em;
-  line-height: 65px;
+  font-size: 3.1em;
+  line-height: 1.2;
 }
 
 .title-box .front {
@@ -186,8 +222,8 @@ blockquote {
   color: rgb(203, 168, 212);
   position: absolute;
   font-style: italic;
-  top: -30px;
-  left: 30px;
+  top: -0.25em;
+  left: 0.3em;
   z-index: 1;
   text-shadow:
     0 0 5px rgb(255, 255, 255),
@@ -198,6 +234,26 @@ blockquote {
     0 0 20px rgb(134, 255, 194),
     0 0 90px rgb(38, 252, 187),
     0 0 10px rgb(153, 248, 201);
+}
+
+@media only screen and (max-width: 380px) {
+  .title-box .front,
+  .title-box .back {
+  font-weight: bold;
+  font-family: 'Notable', sans-serif;
+  font-size: 2.8em;
+  line-height: 50px;
+}
+}
+
+@media only screen and (min-width: 500px) {
+  .title-box .front,
+  .title-box .back {
+  font-weight: bold;
+  font-family: 'Notable', sans-serif;
+  font-size: 4em;
+  line-height: 70px;
+}
 }
 
 @media only screen and (min-width: 600px) {
