@@ -84,6 +84,11 @@ li {
   letter-spacing: 0.04em;
 }
 
+.nummeriert {
+  padding-left: 20px;
+  list-style-type: decimal;
+}
+
 .kapitel{
   font-family: 'Abril Fatface', cursive;
   font-size: 16px;
